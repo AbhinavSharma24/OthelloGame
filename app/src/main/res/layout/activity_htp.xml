@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3D3D3D"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".HTPActivity">
+
+    <TextView
+            android:text="How to play Othello ?"
+            android:textColor="#F76262"
+            android:padding="15dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="Othello is a strategy board game for two players, played on an 8×8 uncheckered board. There are sixty-four identical game pieces called disks (often spelled 'discs'), which are light on one side and dark on the other. Players take turns placing disks on the board with their assigned color facing up. During a play, any disks of the opponent's color that are in a straight line and bounded by the disk just placed and another disk of the current player's color are turned over to the current player's color."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="1. Player's toss a coin to decide who will play white - white moves first. Each turn, the player places one piece on the board with their colour facing up."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="2. For the first four moves, the players must play to one of the four squares in the middle of the board and no pieces are captured or reversed."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="3. Each piece played must be laid adjacent to an opponent's piece so that the opponent's piece or a row of opponent's pieces is flanked by the new piece and another piece of the player's colour. All of the opponent's pieces between these two pieces are 'captured' and turned over to match the player's colour."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="4. It can happen that a piece is played so that pieces or rows of pieces in more than one direction are trapped between the new piece played and other pieces of the same colour. In this case, all the pieces in all viable directions are turned over."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FAD6D6"
+            android:text="5. The game is over when neither player has a legal move (i.e. a move that captures at least one opposing piece) or when the board is full."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:background="#3D3D3D"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            tools:context=".MainActivity">
+
+        <TextView
+                android:text="Welcome to OTHELLO"
+                android:textSize="60sp"
+                android:background="#1a1a1a"
+                android:textColor="#F76262"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <!--<ImageView-->
+                <!--android:src="@drawable/othello"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="300dp"/>-->
+
+        <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/giphy"/>
+
+        <Button
+                android:id="@+id/playbtn"
+                android:textSize="33sp"
+                android:text="PLAY"
+                android:background="#1a1a1a"
+                android:textColor="#FAD6D6"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/htpbtn"
+                android:textSize="25sp"
+                android:background="#1a1a1a"
+                android:textColor="#FAD6D6"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:text="HOW TO PLAY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
