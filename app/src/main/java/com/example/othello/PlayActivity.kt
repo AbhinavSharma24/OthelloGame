@@ -155,7 +155,7 @@ class PlayActivity : AppCompatActivity() {
                     //write logic here
 
                     if (grid[i][j].text == "") {
-                        // && (grid[i - 1][j - 1].text == "\u26AA" || grid[i - 1][j].text == "\u26AA" || grid[i - 1][j + 1].text == "\u26AA" || grid[i][j - 1].text == "\u26AA" || grid[i][j + 1].text == "\u26AA" || grid[i + 1][j - 1].text == "\u26AA" || grid[i + 1][j].text == "\u26AA" || grid[i + 1][j + 1].text == "\u26AA")
+                        //&& (grid[i - 1][j - 1].text == "\u26AA" || grid[i - 1][j].text == "\u26AA" || grid[i - 1][j + 1].text == "\u26AA" || grid[i][j - 1].text == "\u26AA" || grid[i][j + 1].text == "\u26AA" || grid[i + 1][j - 1].text == "\u26AA" || grid[i + 1][j].text == "\u26AA" || grid[i + 1][j + 1].text == "\u26AA")
                         if (chance == 0 && validMove(0, i, j)) {
                             turnText.text = "\u26AA" + "            "
                             turnText.setTextColor(parseColor("#FAD6D6"))
@@ -281,6 +281,7 @@ class PlayActivity : AppCompatActivity() {
                         }
 
 
+                            
                         //FOR WHITE BUTTON
 
                         // && (grid[i - 1][j - 1].text == "\u26AB" || grid[i - 1][j].text == "\u26AB" || grid[i - 1][j + 1].text == "\u26AB" || grid[i][j - 1].text == "\u26AB" || grid[i][j + 1].text == "\u26AB" || grid[i + 1][j - 1].text == "\u26AB" || grid[i + 1][j].text == "\u26AB" || grid[i + 1][j + 1].text == "\u26AB")
