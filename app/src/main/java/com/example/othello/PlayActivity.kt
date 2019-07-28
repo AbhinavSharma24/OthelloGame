@@ -281,7 +281,7 @@ class PlayActivity : AppCompatActivity() {
                         }
 
 
-                            
+
                         //FOR WHITE BUTTON
 
                         // && (grid[i - 1][j - 1].text == "\u26AB" || grid[i - 1][j].text == "\u26AB" || grid[i - 1][j + 1].text == "\u26AB" || grid[i][j - 1].text == "\u26AB" || grid[i][j + 1].text == "\u26AB" || grid[i + 1][j - 1].text == "\u26AB" || grid[i + 1][j].text == "\u26AB" || grid[i + 1][j + 1].text == "\u26AB")
@@ -415,9 +415,9 @@ class PlayActivity : AppCompatActivity() {
 
                     if (black + white == 64 || black == 0 || white == 0) {
                         when {
-                            black > white -> Toast.makeText(this, "Black won the match!!", Toast.LENGTH_LONG).show()
-                            black < white -> Toast.makeText(this, "White won the match!!", Toast.LENGTH_LONG).show()
-                            black == white -> Toast.makeText(this, "Match Tied!!", Toast.LENGTH_LONG).show()
+                            black > white -> Toast.makeText(this, "Black won the match !!!", Toast.LENGTH_LONG).show()
+                            black < white -> Toast.makeText(this, "White won the match !!!", Toast.LENGTH_LONG).show()
+                            black == white -> Toast.makeText(this, "Match Tied !!!", Toast.LENGTH_LONG).show()
                         }
                     }
                 }
