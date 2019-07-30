@@ -13,7 +13,7 @@
         tools:context=".HTPActivity">
 
     <TextView
-            android:text="How to play Othello ?"
+            android:text="How to play OTHELLO ?"
             android:textColor="#F76262"
             android:padding="15dp"
             android:textSize="40sp"
@@ -25,7 +25,7 @@
             android:textSize="22sp"
             android:padding="15dp"
             android:textColor="#FAD6D6"
-            android:text="Othello is a strategy board game for two players, played on an 8×8 uncheckered board. There are sixty-four identical game pieces called disks (often spelled 'discs'), which are light on one side and dark on the other. Players take turns placing disks on the board with their assigned color facing up. During a play, any disks of the opponent's color that are in a straight line and bounded by the disk just placed and another disk of the current player's color are turned over to the current player's color."
+            android:text="Othello is a strategy board game for two players, played on an 8×8 un-checkered board. There are sixty-four identical game pieces called disks (often spelled 'discs'), which are light on one side and dark on the other. Players take turns placing disks on the board with their assigned color facing up. During a play, any disks of the opponent's color that are in a straight line and bounded by the disk just placed and another disk of the current player's color are turned over to the current player's color."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
