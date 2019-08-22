@@ -2,13 +2,13 @@ package com.example.othello
 
 import android.annotation.SuppressLint
 import android.graphics.Color.parseColor
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 
 @Suppress("IMPLICIT_CAST_TO_ANY")
